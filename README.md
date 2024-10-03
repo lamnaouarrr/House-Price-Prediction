@@ -1,4 +1,45 @@
 # Project Title
+[House Prices - Advanced Regression Techniques](#house-prices---advanced-regression-techniques)
+
+## Description
+- [Overview](#overview)
+- [Objectives](#objectives)
+- [Conclusion](#conclusion)
+
+## Dataset
+- [Dataset Source](#dataset-source)
+- [License](#license)
+
+## Installation
+- [Prerequisites](#prerequisites)
+- [Clone the Repository](#clone-the-repository)
+- [Create a Virtual Environment](#create-a-virtual-environment-optional)
+- [Install Required Packages](#install-required-packages)
+- [Download the Dataset](#download-the-dataset)
+- [Run the Jupyter Notebook](#run-the-jupyter-notebook)
+
+## Usage
+- [Running the Notebook](#running-the-notebook)
+- [Example Usage](#example-usage)
+
+## Results
+- [Model Performance](#model-performance)
+- [Key Insights](#key-insights)
+
+## Contributing
+- [Guidelines for Contribution](#guidelines-for-contribution)
+
+## Acknowledgements
+- [Resources and Contributors](#resources-and-contributors)
+
+## Contact
+- [Contact](#Contact)
+
+
+
+
+
+# Project Title
 House Prices - Advanced Regression Techniques
 
 ## Description
@@ -130,3 +171,24 @@ This will open a web browser where you can navigate to your notebooks and start 
 
 
 # Results:
+
+
+
+
+
+
+# Contributing
+
+
+
+
+
+
+# Acknowledgements
+
+
+
+
+
+
+# Contact
