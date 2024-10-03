@@ -145,7 +145,7 @@ jupyter
 
 ### Step 4: Download the Dataset
 
-You can download the dataset from the Kaggle competition page. Make sure to place the downloaded dataset in the appropriate directory (e.g., a folder named `data` within your project).
+You can download the dataset from the Kaggle competition page. Make sure to place the downloaded dataset in the appropriate directory (e.g., a folder named `data` within your project). 
 
 ### Step 5: Run the Jupyter Notebook
 
