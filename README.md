@@ -2,24 +2,24 @@
 House Prices - Advanced Regression Techniques
 
 ## Description
-   Overview
-      The "House Prices - Advanced Regression Techniques" competition on Kaggle challenges participants to predict house prices based on various features using advanced regression techniques. The dataset includes a rich set of attributes that characterize the houses, such as square footage, number of bedrooms and bathrooms, location, and other relevant factors.
+### Overview
+The "House Prices - Advanced Regression Techniques" competition on Kaggle challenges participants to predict house prices based on various features using advanced regression techniques. The dataset includes a rich set of attributes that characterize the houses, such as square footage, number of bedrooms and bathrooms, location, and other relevant factors.
 
-   Objectives
-      The primary objectives of this project are to:
+### Objectives
+The primary objectives of this project are to:
 
-      Data Exploration and Preprocessing: Analyze the dataset to understand the underlying patterns and relationships between features. This includes handling missing values, encoding categorical variables, and scaling numerical features to prepare the data for modeling.
+Data Exploration and Preprocessing: Analyze the dataset to understand the underlying patterns and relationships between features. This includes handling missing values, encoding categorical variables, and scaling numerical features to prepare the data for modeling.
 
-      Model Development: Experiment with various regression techniques, including linear regression, decision trees, random forests, and gradient boosting algorithms. The goal is to identify the most effective models for predicting house prices based on the given features.
+Model Development: Experiment with various regression techniques, including linear regression, decision trees, random forests, and gradient boosting algorithms. The goal is to identify the most effective models for predicting house prices based on the given features.
 
-      Model Evaluation and Tuning: Assess model performance using appropriate metrics (such as RMSE) and perform hyperparameter tuning to enhance prediction accuracy. This may involve techniques like cross-validation to ensure the robustness of the models.
+Model Evaluation and Tuning: Assess model performance using appropriate metrics (such as RMSE) and perform hyperparameter tuning to enhance prediction accuracy. This may involve techniques like cross-validation to ensure the robustness of the models.
 
-      Feature Importance Analysis: Identify the key features that significantly impact house prices. Understanding feature importance will provide insights into the housing market and aid in making informed decisions for stakeholders.
+Feature Importance Analysis: Identify the key features that significantly impact house prices. Understanding feature importance will provide insights into the housing market and aid in making informed decisions for stakeholders.
 
-      Documentation and Sharing: Document the entire process, including data exploration, model development, and findings. The project will be shared on GitHub, allowing others to replicate the analysis and build upon the work.
+Documentation and Sharing: Document the entire process, including data exploration, model development, and findings. The project will be shared on GitHub, allowing others to replicate the analysis and build upon the work.
 
-   Conclusion
-      This project aims to deliver a comprehensive solution for predicting house prices using advanced regression techniques. Through rigorous analysis and modeling, it will contribute valuable insights into the factors influencing the housing market, ultimately serving as a robust tool for real estate stakeholders.
+### Conclusion
+This project aims to deliver a comprehensive solution for predicting house prices using advanced regression techniques. Through rigorous analysis and modeling, it will contribute valuable insights into the factors influencing the housing market, ultimately serving as a robust tool for real estate stakeholders.
 
 ## Dataset
 The dataset used for this project is sourced from Kaggle. You can download it from the following link:
@@ -28,25 +28,25 @@ The dataset used for this project is sourced from Kaggle. You can download it fr
 ### License
 The dataset is licensed under the MIT License. Here is the license text:
 
-   # Released under MIT License
+### Released under MIT License
 
-   Copyright (c) 2013 Mark Otto.
+Copyright (c) 2013 Mark Otto.
 
-   Copyright (c) 2017 Andrew Fong.
+Copyright (c) 2017 Andrew Fong.
 
-   Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-   The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
 
 
 
-## Installation
+
+
+# Installation
 
 To get started with the "House Prices - Advanced Regression Techniques" project, follow the instructions below to set up your environment and install the necessary dependencies.
 
@@ -122,11 +122,11 @@ This will open a web browser where you can navigate to your notebooks and start 
 
 
 
-### Usage:
+# Usage:
 
 
 
 
 
 
-### Results:
+# Results:
