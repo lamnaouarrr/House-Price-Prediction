@@ -8,15 +8,15 @@ The "House Prices - Advanced Regression Techniques" competition on Kaggle challe
 ### Objectives
 The primary objectives of this project are to:
 
-Data Exploration and Preprocessing: Analyze the dataset to understand the underlying patterns and relationships between features. This includes handling missing values, encoding categorical variables, and scaling numerical features to prepare the data for modeling.
+- **Data Exploration and Preprocessing:** Analyze the dataset to understand the underlying patterns and relationships between features. This includes handling missing values, encoding categorical variables, and scaling numerical features to prepare the data for modeling.
 
-Model Development: Experiment with various regression techniques, including linear regression, decision trees, random forests, and gradient boosting algorithms. The goal is to identify the most effective models for predicting house prices based on the given features.
+- **Model Development:** Experiment with various regression techniques, including linear regression, decision trees, random forests, and gradient boosting algorithms. The goal is to identify the most effective models for predicting house prices based on the given features.
 
-Model Evaluation and Tuning: Assess model performance using appropriate metrics (such as RMSE) and perform hyperparameter tuning to enhance prediction accuracy. This may involve techniques like cross-validation to ensure the robustness of the models.
+- **Model Evaluation and Tuning:** Assess model performance using appropriate metrics (such as RMSE) and perform hyperparameter tuning to enhance prediction accuracy. This may involve techniques like cross-validation to ensure the robustness of the models.
 
-Feature Importance Analysis: Identify the key features that significantly impact house prices. Understanding feature importance will provide insights into the housing market and aid in making informed decisions for stakeholders.
+- **Feature Importance Analysis:** Identify the key features that significantly impact house prices. Understanding feature importance will provide insights into the housing market and aid in making informed decisions for stakeholders.
 
-Documentation and Sharing: Document the entire process, including data exploration, model development, and findings. The project will be shared on GitHub, allowing others to replicate the analysis and build upon the work.
+- **Documentation and Sharing:** Document the entire process, including data exploration, model development, and findings. The project will be shared on GitHub, allowing others to replicate the analysis and build upon the work.
 
 ### Conclusion
 This project aims to deliver a comprehensive solution for predicting house prices using advanced regression techniques. Through rigorous analysis and modeling, it will contribute valuable insights into the factors influencing the housing market, ultimately serving as a robust tool for real estate stakeholders.
