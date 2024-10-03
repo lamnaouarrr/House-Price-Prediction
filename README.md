@@ -186,6 +186,7 @@ This project is based on the Kaggle competition "House Prices - Advanced Regress
 
 For any questions or inquiries, you can contact the project maintainer at:  
 **Email:** ayoublamnaouar1@gmail.com  
-**GitHub:** [yourusername](https://github.com/lamnaouarrr)
+**GitHub:** [lamnaouarrr](https://github.com/lamnaouarrr)
+**LinkedIn:** [Ayoub Lamnaouar](https://www.linkedin.com/in/ayoub-lamnaouar-80730317a/)
 
 --- 
