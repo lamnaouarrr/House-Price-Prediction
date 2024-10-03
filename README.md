@@ -63,7 +63,7 @@ This project aims to deliver a comprehensive solution for predicting house price
 
 ## Dataset
 The dataset used for this project is sourced from Kaggle. You can download it from the following link:
-- [Dataset Title](https://www.kaggle.com/dataset/username/dataset-title)  
+- [Dataset Title](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/data)  
 
 ### License
 The dataset is licensed under the MIT License. Here is the license text:
