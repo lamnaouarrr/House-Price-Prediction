@@ -1,40 +1,32 @@
 # Project Title
 **House Prices - Advanced Regression Techniques**
 
-# Outline
+---
 
-### Description
-- [Overview](#overview)
-- [Objectives](#objectives)
-- [Conclusion](#conclusion)
+## Outline
 
-### Dataset
-- [Dataset Source](#dataset-source)
-- [License](#license)
-
-### Installation
-- [Prerequisites](#prerequisites)
-- [Clone the Repository](#clone-the-repository)
-- [Create a Virtual Environment](#create-a-virtual-environment-optional)
-- [Install Required Packages](#install-required-packages)
-- [Download the Dataset](#download-the-dataset)
-- [Run the Jupyter Notebook](#run-the-jupyter-notebook)
-
-### Usage
-- [Running the Notebook](#running-the-notebook)
-- [Example Usage](#example-usage)
-
-### Results
-- [Model Performance](#model-performance)
-- [Key Insights](#key-insights)
-
-### Contributing
-- [Guidelines for Contribution](#guidelines-for-contribution)
-
-### Acknowledgements
-- [Resources and Contributors](#resources-and-contributors)
-
-### Contact
+- [Description](#description)
+  - [Overview](#overview)
+  - [Objectives](#objectives)
+  - [Conclusion](#conclusion)
+- [Dataset](#dataset)
+  - [Dataset Source](#dataset-source)
+  - [License](#license)
+- [Installation](#installation)
+  - [Prerequisites](#prerequisites)
+  - [Clone the Repository](#clone-the-repository)
+  - [Create a Virtual Environment](#create-a-virtual-environment-optional)
+  - [Install Required Packages](#install-required-packages)
+  - [Download the Dataset](#download-the-dataset)
+  - [Run the Jupyter Notebook](#run-the-jupyter-notebook)
+- [Usage](#usage)
+  - [Running the Notebook](#running-the-notebook)
+  - [Example Usage](#example-usage)
+- [Results](#results)
+  - [Model Performance](#model-performance)
+  - [Key Insights](#key-insights)
+- [Contributing](#contributing)
+- [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
 
 ---
@@ -43,27 +35,21 @@
 
 ### Overview
 
-This project is based on the Kaggle competition "House Prices - Advanced Regression Techniques." The competition aims to predict house prices using various regression techniques and a dataset with 79 explanatory variables. These variables describe multiple aspects of residential homes in Ames, Iowa. The goal is to accurately predict the final price of each home based on these variables.
+This project is based on the Kaggle competition "House Prices - Advanced Regression Techniques." The goal is to predict house prices using a dataset with 79 explanatory variables describing various aspects of residential homes in Ames, Iowa. By experimenting with multiple regression techniques, the project aims to achieve a robust prediction model for house prices.
 
 ### Objectives
 
 The main goals of this project are to:
 
-- **Data Exploration and Preprocessing:** Analyze the dataset to identify patterns, handle missing values, and prepare the data for model training through encoding and scaling.
-  
-- **Model Development:** Implement various advanced regression techniques, such as Random Forests, Gradient Boosting, and others, to develop models that predict house prices.
-
-- **Model Evaluation:** Use the Root-Mean-Squared-Error (RMSE) metric to evaluate and compare the performance of different models. Additionally, perform hyperparameter tuning to improve model accuracy.
-
-- **Feature Engineering:** Create new features or transform existing ones to enhance model performance.
-
-- **Feature Importance Analysis:** Identify which features have the most significant impact on house prices, giving insight into how the real estate market works.
-
-- **Documentation and Sharing:** Present the results and methodology clearly so that others can replicate or expand upon the work. All code and notebooks will be shared via GitHub for further use.
+- **Data Exploration and Preprocessing:** Analyze the dataset, handle missing values, and prepare the data for model training through encoding and scaling.
+- **Model Development:** Implement various regression techniques, such as Linear Regression, SVM, Decision Trees, and advanced ensemble methods like Random Forests, Gradient Boosting, and CatBoost.
+- **Model Evaluation:** Evaluate models using the Root-Mean-Squared-Error (RMSE) metric and perform hyperparameter tuning to improve accuracy.
+- **Feature Engineering:** Enhance model performance by reducing multicollinearity through feature selection and transformation.
+- **Documentation and Sharing:** Share the project with clear documentation for reproducibility and further use.
 
 ### Conclusion
 
-The project provides a comprehensive machine learning solution for predicting house prices, incorporating both basic and advanced regression techniques. The results will provide insights into the factors driving house prices and will be valuable for those interested in data science, machine learning, or real estate markets.
+This project demonstrates a comprehensive machine learning approach for predicting house prices, covering data preprocessing, model development, and performance evaluation. The insights gained offer valuable understanding into the factors influencing real estate prices.
 
 ---
 
@@ -97,7 +83,7 @@ Replace `yourusername` with your actual GitHub username.
 
 ### Step 2: Create a Virtual Environment (Optional)
 
-Create a virtual environment using `venv` to isolate dependencies:
+Create a virtual environment using venv to isolate dependencies:
 
 ```bash
 cd house-prices-advanced-regression
@@ -107,10 +93,13 @@ python -m venv venv
 Activate the virtual environment:
 
 - **For Windows:**
+
   ```bash
   venv\Scripts\activate
   ```
+
 - **For macOS/Linux:**
+
   ```bash
   source venv/bin/activate
   ```
@@ -132,6 +121,9 @@ scikit-learn
 matplotlib
 seaborn
 jupyter
+xgboost
+lightgbm
+catboost
 ```
 
 ### Step 4: Download the Dataset
@@ -162,13 +154,19 @@ To run the notebook, follow these steps:
 
 ### Model Performance
 
-The project's objective is to minimize the RMSE between the predicted and actual house prices, focusing on ensuring robust predictions across a range of housing prices.
+The table below summarizes the performance of different models used in this project, focusing on the CatBoost model as the best-performing one. The primary evaluation metric is RMSE (Root Mean Squared Error), with lower scores indicating better performance.
 
-### Key Insights
+| Model                  | Techniques Used                           | RMSE Score   |
+|------------------------|-------------------------------------------|--------------|
+| Linear Regression      | Baseline                                  | 0.16589      |
+| Support Vector Machine | Regularization, Feature Engineering       | 0.15336      |
+| Decision Tree          | Hyperparameter Tuning                     | 0.18508      |
+| **Tree Ensembles (CatBoost)** | **Best Model** – Tuning & Engineering | **0.12717** |
 
-Key insights include identifying the most important features influencing house prices and providing visualizations of how these features correlate with prices.
+The best performance was achieved using **Tree Ensembles with CatBoost**, resulting in an RMSE score of **0.12717**, demonstrating its effectiveness in capturing complex patterns in the data. This is a significant improvement from the initial baseline score of **0.16589** with linear regression.
 
----
+You can view my progress and submissions on [my Kaggle profile](https://www.kaggle.com/lamnaouarrr/competitions).
+
 
 ## Contributing
 
@@ -187,6 +185,4 @@ This project is based on the Kaggle competition "House Prices - Advanced Regress
 For any questions or inquiries, you can contact the project maintainer at:  
 **Email:** ayoublamnaouar1@gmail.com  
 **GitHub:** [lamnaouarrr](https://github.com/lamnaouarrr)  
-**LinkedIn:** [Ayoub Lamnaouar](https://www.linkedin.com/in/ayoub-lamnaouar-80730317a/)
-
---- 
+**LinkedIn:** [Ayoub Lamnaouar](https://www.linkedin.com/in/ayoub-lamnaouar-80730317a/)  
